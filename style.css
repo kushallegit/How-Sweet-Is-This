@@ -28,8 +28,8 @@ header {
 }
 
 .header-image {
-    width: 100%;
-    max-width: 600px;  /* Adjust the width to fit both images */
+    width: 80%;
+    max-width: 400px;  /* Adjust the width to fit both images */
     margin-top: 1em;
     border-radius: 8px;
 }
