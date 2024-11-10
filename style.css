@@ -1,0 +1,113 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fafafa;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: #d32f2f;
+    padding: 2em 0;
+    color: #fff;
+}
+
+.header-images {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 800px;  /* Adjust the width to fit both images */
+    margin-top: 1em;
+    border-radius: 8px;
+}
+
+
+/* Facts Section */
+.facts {
+    text-align: center;
+    padding: 2em;
+}
+.facts h2 {
+    color: #d32f2f;
+    font-size: 2em;
+}
+.fact-box {
+    background-color: #ffebcd;
+    border: 2px solid #d32f2f;
+    padding: 1em;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Nutrition Section */
+.nutrition {
+    text-align: center;
+    padding: 2em;
+}
+.nutrition h2 {
+    color: #d32f2f;
+    font-size: 2em;
+}
+table {
+    width: 80%;
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+.footer-logo img {
+    width: 100px;
+}
+.footer-info p {
+    margin: 0.5em 0;
+}
+.contact-form {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input, .contact-form textarea, .contact-form button {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border: none;
+    border-radius: 4px;
+}
+.contact-form button {
+    background-color: #d32f2f;
+    color: white;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #b71c1c;
+}
